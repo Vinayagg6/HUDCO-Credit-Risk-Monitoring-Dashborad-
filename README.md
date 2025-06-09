@@ -1,29 +1,33 @@
 # HUDCO-Credit-Risk-Monitoring-Dashborad-
+This project showcases a Power BI dashboard developed for HUDCO (Housing and Urban Development Corporation Ltd.) to monitor and analyze loan exposure data. The dashboard focuses on tracking the total principal outstanding amount distributed across various sectors, security types, and borrower classifications (Government or Private), with stage-wise segmentation of loan performance.
 
-## 🧠 Use Case
+Objective:
+The main objective of this dashboard is to help the credit risk and finance teams at HUDCO visualize trends and changes in loan exposure on a quarterly basis. It allows users to identify increases or decreases in outstanding principal amounts, helping in better risk assessment and decision-making.
 
-This dashboard enables HUDCO to:
+Key Features:
 
-- Assess portfolio risk across different categories.
-- Take data-driven decisions for credit monitoring and recovery planning.
-- Present clear visual summaries to stakeholders.
+Provides filters for Sector, Scheme, Security Type, and Borrower Type (Govt/Pvt).
 
-## 📷 Sample Snapshot
+Displays stage-wise categorization of accounts (SMA0, SMA1, SMA2, SMA3) based on their repayment status.
 
-![Dashboard Screenshot](link-to-screenshot.png)
+Highlights top borrowers with the highest principal outstanding amounts.
 
-## 🚀 Getting Started
+Offers a sector-wise summary with stage classification to monitor risk concentration.
 
-To explore or modify the report:
-1. Open the `.pbix` file in Power BI Desktop.
-2. Connect your data source or use the sample data in `/Data/cleaned_data.xlsx`.
-3. Refresh visuals and explore filters.
+Interactive visuals and KPIs make it easy to analyze data for over 2900+ borrowers.
 
-## 📬 Contact
+Tools and Technologies Used:
 
-For any queries or feedback, feel free to reach out to [Your Name] at [your_email@example.com].
+Power BI for building the dashboard and visuals.
 
----
+Microsoft Excel for initial data preparation and transformation.
 
-> **Disclaimer**: This project uses anonymized or dummy data for demonstration purposes and does not disclose any confidential information related to HUDCO.
+DAX for creating custom measures and calculated columns in Power BI.
+
+Impact:
+The dashboard allows HUDCO’s teams to gain a clear understanding of loan performance and risk exposure. It supports strategic decision-making in credit monitoring, fund allocation, and borrower engagement.
+
+Note:
+The data used in this project is either publicly available or anonymized to ensure confidentiality.
+
 
